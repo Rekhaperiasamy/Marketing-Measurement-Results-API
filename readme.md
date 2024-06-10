@@ -9,7 +9,9 @@ Once containers are up and running, run the setup script to load data to the dat
 Run the following commands.
 
 > docker-compose up --build
+
 > chmod +x script.sh
+
 > ./script.sh
 
 # Access the endpoints
@@ -33,4 +35,5 @@ Unit tests are written using pytest.
 Run the following commands.
 
 > pip install -r test-requirements.txt
+
 > pytest
